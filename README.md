@@ -3,7 +3,7 @@
 This project uses Seer private data made-available from the University of Melbourne to predict epilepsy ictal moments using ML Supervised Algorithms. 
 ## Requirements
 
-- pip - to install dependecies.
+- pip - to install dependencies.
 - dask - any version for parallel computing
 - pandas - any version
 - numpy - any version to run pandas
