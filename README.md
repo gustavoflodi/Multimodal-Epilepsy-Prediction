@@ -1,2 +1,14 @@
-# Multimodal-Epilepsy-Prediction
-Predicting Epilepsy crisis using Supervised Learning
+# Multi-modal Epilepsy Prediction
+
+This project uses Seer private data made-available from the University of Melbourne to predict epilepsy ictal moments using ML Supervised Algorithms. 
+## Requirements
+
+- pip - to install dependecies.
+- dask - any version for parallel computing
+- pandas - any version
+- numpy - any version to run pandas
+- matplotlib.pyplot - any version for the visualizations
+- sklearn - any version to run the models.
+## Autores
+
+- Gustavo Lodi - https://www.linkedin.com/in/gustavoflodi/
