@@ -9,6 +9,6 @@ This project uses Seer private data made-available from the University of Melbou
 - numpy - any version to run pandas
 - matplotlib.pyplot - any version for the visualizations
 - sklearn - any version to run the models.
-## Autores
+## Author
 
 - Gustavo Lodi - https://www.linkedin.com/in/gustavoflodi/
