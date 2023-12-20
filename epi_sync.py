@@ -1,3 +1,15 @@
+"""Module/Script Description.
+
+This module/script provides the functions to get the synced data.
+
+Author: Gustavo Lodi
+Date: 01/12/2023
+
+Functions:
+    get_sync_metadata: this function uses the others to get the synced data from the sensors.
+
+"""
+
 import pandas as pd
 import seerpy
 
@@ -20,7 +32,6 @@ def merge_metadata(meta_data_old, meta_data, columns_to_merge):
 # Get synchronized metadata for a list of sensors in a study
 def get_sync_metadata(client, study_name, sensors_list):
     study_metadata = get_study_metadata(client, study_name)
-    
     # Initialize with metadata for the first sensor
     first_sensor = sensors_list[0]
     meta_data_old = filter_sensor_metadata(study_metadata, first_sensor)
