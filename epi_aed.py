@@ -1,3 +1,19 @@
+"""Module/Script Description.
+
+This module/script provides the functions to explore the data.
+
+Author: Gustavo Lodi
+Date: 01/12/2023
+
+Functions:
+    plot_dist: histograms of sensors
+    plot_dist_labeled: distribution for each label ictal, pre-ictal and inter-ictal.
+    stats_basic: basic statistics.
+    plot_time_series: sensors' data versus time.
+    corr_plot: relationship between sensors' data.
+
+"""
+
 import matplotlib.pyplot as plt
 import pandas as pd
 
