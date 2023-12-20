@@ -1,3 +1,15 @@
+"""Module/Script Description.
+
+This module/script provides the functions to obtain the raw data.
+
+Author: Gustavo Lodi
+Date: 01/12/2023
+
+Functions:
+    get_raw_data: merge the meta data and from it obtain the time series data.
+
+"""
+
 import pandas as pd
 import seerpy
 
